@@ -7,7 +7,7 @@ class Car {
         this.position = 0;
         this.name = name;
     }
-    public static void checkCarNameError() {
+    public static void isNameCorrect() {
         if (name.length() > 5) {
             throw new IllegalArgumentException("자동차 이름은 5자 이하여야 한다.");
         }

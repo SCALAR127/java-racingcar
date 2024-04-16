@@ -1,7 +1,7 @@
 package racingcar;
 import java.util.*;
 class PrintRacing{
-    public void printCarPosition(List<Car> cars){
+    public static void printCarPosition(List<Car> cars){
         for(Car car : cars) {
             System.out.print(car.getName() + ": ");
             for(int j =0; j<car.getPosition(); j++){
